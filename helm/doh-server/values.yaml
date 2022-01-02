@@ -26,6 +26,7 @@ containerPort: 8053
 service:
   type: ClusterIP
   port: 80
+  annotations:
 
 ingress:
   enabled: false
